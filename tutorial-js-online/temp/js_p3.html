@@ -1,0 +1,53 @@
+<!--
+    Requirements:
+    - 1. Allow user to enter buyer name and modify the quantity of prodcuts in cart.
+    - 2. When clicking submit button, display a shipment in the output area.
+    - Example of shipment:
+        ==== Shipment ====
+        Buyer: John James
+        * Product: MacBook Pro 13-inch(Price: $1,299.00), Quantity: 1
+        * Product: iPhone 12(Price: $799.00), Quantity: 2
+        * Product: iPad 128G(Price: $429.00), Quantity: 0
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice - Shipment</title>
+</head>
+
+<body>
+<h1>Cart</h1>
+
+Full Name of Buyer: <input type="text" id="buyername" /><br/>
+<br/>
+MacBook Pro 13-inch ($1,299.00) - qty. <input type="text" id="mbp" value="0"/><br/>
+<br/>
+iPhone 12 ($799.00) - qty. <input type="text" id="iphone12" value="0"/><br/>
+<br/>
+iPad 128G ($429.00) - qty. <input type="text" id="ipad128g" value="0"/><br/>
+<br/>
+<button id="submit">Submit</button>
+<hr/>
+Output:<br/>
+<div id="output" style="width:500px; height:300px; border:1px #333 dashed; padding: 5px;"></div>
+
+</body>
+
+<script>
+document.getElementById('submit').onclick = function(){
+    let buyername = document.getElementById("buyername").value;
+    let qtyOfMbp = document.getElementById("mbp").value;
+    let qtyOfIPhone12 = document.getElementById("iphone12").value;
+    let qtyOfIPad128G = document.getElementById("ipad128g").value;
+
+    let resultMsg = "==== Shipment ====<br/>";
+    resultMsg += "Buyer: " + buyername + "<br/>";
+    resultMsg += "* Product: MacBook Pro 13-inch(Price: $1,299.00), Quantity: " + qtyOfMbp + "<br/>";
+    resultMsg += "* Product: iPhone 12(Price: $799.00), Quantity: " + qtyOfIPhone12 + "<br/>";
+    resultMsg += "* Product: iPad 128G(Price: $429.00), Quantity: " + qtyOfIPad128G + "<br/>";
+
+    document.getElementById("output").innerHTML = resultMsg;
+};
+</script>
+
+</html>
