@@ -8,3 +8,7 @@
 ## Result
 
 ![](./practice1_innerHTML_result.png)
+
+## Answer Code
+
+* [code](./practice1_innerHTML.html)
