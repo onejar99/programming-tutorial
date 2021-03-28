@@ -1,0 +1,27 @@
+<!--
+    Requirements:
+    - 1. A text field that you can enter your name into.
+    - 2. A submit button.
+    - 3. Assume you enter "John". After clicking the submit button, show "Hi John" in the output textarea box.
+-->
+<html>
+<head>
+    <title>Practice - innerHTML </title>
+</head>
+<body>
+Enter you name: <input type="text" id="username" />
+<button id="doSubmit">Submit</button>
+<hr/>
+Output:<br/>
+<textarea id="output" style="width:500px; height:500px;"></textarea>
+
+</body>
+<script>
+    document.getElementById("doSubmit").onclick = function() {
+        // when clicking button, do something
+        let username = document.getElementById("username").value;
+        document.getElementById("output").value = "Hi " + username;
+    };
+
+</script>
+</html>
