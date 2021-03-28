@@ -1,0 +1,28 @@
+<h1>My Calculator</h1><br/>
+
+<input type="text" id="number1" value="10" />
+<select id="sign">
+  <option value ="plus">＋</option>
+  <option value ="minus">－</option>
+  <option value="multiply">×</option>
+  <option value="divide">÷</option>
+</select>
+<input type="text" id="number2" value="2"/>
+<button id="equal">＝</button> 
+<input type="text" id="result" />
+
+<script>
+document.getElementById('equal').onclick = function(){
+  if (document.getElementById("sign").value == "plus") {
+          document.getElementById('result').value = Number(document.getElementById("number1").value) + Number(document.getElementById("number2").value);
+  } else if (document.getElementById("sign").value == "minus") {
+          document.getElementById('result').value = Number(document.getElementById("number1").value) - Number(document.getElementById("number2").value);
+  } else if (document.getElementById("sign").value == "multiply") {
+          document.getElementById('result').value = Number(document.getElementById("number1").value) * Number(document.getElementById("number2").value);
+  } else if (document.getElementById("sign").value == "divide") {
+          document.getElementById('result').value = Number(document.getElementById("number1").value) / Number(document.getElementById("number2").value);
+  } else {
+        document.getElementById('result').value = "No idea";
+  }
+};
+</script>
