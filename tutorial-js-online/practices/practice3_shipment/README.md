@@ -1,4 +1,4 @@
-# Pracetice 3: Shipment
+# Practice 3: Shipment
 
 ## Requirements
 1. Allow user to enter buyer name and modify the quantity of prodcuts in cart.

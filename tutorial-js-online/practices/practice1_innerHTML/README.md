@@ -1,4 +1,4 @@
-# Pracetice 1: innerHTML
+# Practice 1: innerHTML
 
 ## Requirements
 1. A text field that you can enter your name into.

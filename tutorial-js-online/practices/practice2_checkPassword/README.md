@@ -1,4 +1,4 @@
-# Pracetice 2: Check Password
+# Practice 2: Check Password
 
 ## Requirements
 1. Two text fields which can be entered username and password.
