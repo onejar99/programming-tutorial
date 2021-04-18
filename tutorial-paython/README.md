@@ -9,3 +9,4 @@
     * arithmetic operators
     * casting to string (`str()`)
     * (stretch) casting from floats to integers (`int()`)
+    * (stretch) variables
