@@ -18,6 +18,6 @@
 * highlights:
     * concatenating strings
 
-### Practice 4: Is Number?
+### Practice 4: Is a Number?
 * highlights:
     * pattern checking for numbers (`RegExp`)

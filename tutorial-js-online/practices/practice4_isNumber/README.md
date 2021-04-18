@@ -1,4 +1,4 @@
-# Practice 4: Is Number?
+# Practice 4: Is a Number?
 
 ## Requirements
 Check if the user input is a number.
