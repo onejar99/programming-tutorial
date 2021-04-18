@@ -9,6 +9,6 @@
 
 ![](./practice1_innerHTML_result.png)
 
-## Answer Code
+## Answer
 
 * [code](./practice1_innerHTML.html)

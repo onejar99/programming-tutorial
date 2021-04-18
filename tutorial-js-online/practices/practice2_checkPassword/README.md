@@ -20,6 +20,6 @@ P.S. Assume there are only 3 users:
 ![](./practice2_checkPassword_result_1.png)
 ![](./practice2_checkPassword_result_2.png)
 
-## Answer Code
+## Answer
 
 (TBC)

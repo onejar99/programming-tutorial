@@ -16,6 +16,6 @@ Buyer: John James
 
 ![](./practice3_shipment_result.png)
 
-## Answer Code
+## Answer
 
 (TBC)

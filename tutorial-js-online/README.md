@@ -17,3 +17,7 @@
 ### Practice 3: Shipment
 * highlights:
     * concatenating strings
+
+### Practice 4: Is Number?
+* highlights:
+    * pattern checking for numbers (`RegExp`)
