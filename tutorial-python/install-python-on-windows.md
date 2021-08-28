@@ -6,17 +6,17 @@ A simple guide to installing Python on Windows.
 
 * Step 1. Installing Anaconda.
 * Step 2. Verifying Python installed successfully.
-* Step 3: Installing and running Jupyter Notebook.
+* Step 3: Installing and launching Jupyter Notebook.
 * Step 4: Running a Python Hello World example.
 
 
 ## Step 1: Installing Anaconda.
 
-Anaconda is a popular open-source data science toolkit that includes Python runtime environments and package management tools. Installing Anaconda is recommended to manage your Python environments easier, instead of installing Python directly.
+Anaconda is a popular open-source data science toolkit that includes Python runtime environments and package management tools. Installing Anaconda to manage your Python environments easier is recommended, instead of installing Python directly.
 
-> **Note: Suggest that 5GB disk space reserved for installing Anaconda.**
+> **Note: Suggest that reserving at least 5GB disk space for installing Anaconda.**
 
-1. Go to the [Anaconda official site](https://www.anaconda.com/products/individual-d#Downloads) and download the installer dependent on your laptop OS.
+1. Go to the [Anaconda official site](https://www.anaconda.com/products/individual-d#Downloads) and download the installer per your laptop OS.
 
 ![](https://i.imgur.com/U2OrGJQ.png)
 
@@ -44,7 +44,7 @@ $ python --version
 ![](https://i.imgur.com/xHJpBGs.png)
 
 
-## Step 3: Installing and running Jupyter Notebook.
+## Step 3: Installing and launching Jupyter Notebook.
 
 Jupyter Notebook offers a web interactive interface for executing your Python code.
 
