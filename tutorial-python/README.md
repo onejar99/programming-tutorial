@@ -4,7 +4,7 @@
 
 ### Development Environments
 
-* [Install Python on Windows](install-python-on-windows.md)
+* [How to Install Python on Windows](install-python-on-windows.md)
 
 
 ### Practice 1: Win a Lottery

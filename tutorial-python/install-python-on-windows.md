@@ -1,4 +1,4 @@
-# Install Python on Windows
+# How to Install Python on Windows
 
 A simple guide to installing Python on Windows.
 
